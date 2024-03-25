@@ -5,18 +5,18 @@ document.addEventListener('DOMContentLoaded', function() {
 function loadMovieListings() {
     // Updated movie data without descriptions, directors, and years
     const movies = [
-        { title: 'One Fine Day', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/images/onefineday.jpg" },
-        { title: 'Jane Eyre', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/images/janeeyre.jpg" },
-        { title: 'Zodiac', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/images/zodiac.jpg" },
-        { title: 'Little Women', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/images/littlewomen.jpg" },
-        { title: 'The Classic', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/images/theclassic.jpg" },
-        { title: 'The Batman', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/images/the%20batman.jpg" },
-        { title: 'Far From Madding Crowd', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/images/far%20from%20maddening%20crowd.jpg" },
-        { title: 'The Sixth Sense', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/images/the%20sixth%20sense.jpg" },
-        { title: 'Mulan', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/images/mulan.jpg" },
-        { title: 'Only You', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/images/only%20you.jpg" },
-        { title: "Ocean's Eleven", imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/images/ocean's%20eleven.jpg" },
-        { title: 'Contact', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/images/contact.jpg" },
+        { title: 'One Fine Day', imageUrl: "https://64.media.tumblr.com/207b2cff5e71e5905aa15e2537f70d03/a648309f1e38239a-da/s2048x3072/0eaabc3f66d4055b00631c3f8b46028829bde347.jpg" },
+        { title: 'Jane Eyre', imageUrl: "https://64.media.tumblr.com/c671fa25faa292cd5b8decff884148a8/a648309f1e38239a-4e/s2048x3072/a0ceb681187c775d3520486c23e3a8b0b9fa6cbe.jpg" },
+        { title: 'Zodiac', imageUrl: "https://64.media.tumblr.com/0305ea2d0abcd9349d01e7bab51a1253/a648309f1e38239a-2d/s2048x3072/c3e32e3e5292b6b12a26266f4aeca9f01deb7a64.jpg" },
+        { title: 'Little Women', imageUrl: "https://64.media.tumblr.com/fbf888a81277d9d8023eec84b405ad5a/a648309f1e38239a-28/s2048x3072/3249875182b1477b9330a50d24ec29d472fe078a.jpg" },
+        { title: 'The Classic', imageUrl: "https://64.media.tumblr.com/802111bbfd8a3d03a4101f0b466e1699/a648309f1e38239a-ee/s2048x3072/8579490275760d429a7f08e9c1a6fa33fb98d572.jpg" },
+        { title: 'The Batman', imageUrl: "https://64.media.tumblr.com/ae88f4ae0e19d5ef6da12d9064662a50/a648309f1e38239a-3d/s2048x3072/5672a4d7ff31cb558da4e7784c09c7adce1ec95e.jpg" },
+        { title: 'Far From Madding Crowd', imageUrl: "https://64.media.tumblr.com/ea5bd944d6bf9d78b4f441fa34aabc80/a648309f1e38239a-1a/s2048x3072/76157366e25828f808345478ca8f7c4a18e91a8e.jpg" },
+        { title: 'The Sixth Sense', imageUrl: "https://64.media.tumblr.com/8792d384f0bb4c99ed6009c9468c719e/a648309f1e38239a-ba/s2048x3072/4e065cfb9c8983b31db5e89b8d12e28415403276.jpg" },
+        { title: 'Mulan', imageUrl: "https://64.media.tumblr.com/ab210d6c39cd79a94aab50fa3aecdfb9/a648309f1e38239a-27/s2048x3072/f35aca1431c14ed3fa1ad2cb8b744b9a07520fdc.jpg" },
+        { title: 'Only You', imageUrl: "https://64.media.tumblr.com/91a33966574c6e957300c048748d8435/a648309f1e38239a-2e/s2048x3072/dd109aa70509cbbde675a09a0d7653fb7a531605.jpg" },
+        { title: "Ocean's Eleven", imageUrl: "https://64.media.tumblr.com/f1f39e5cb5c323add53278692cdf7f92/a648309f1e38239a-ad/s2048x3072/20279993bdb19bab53426ad4cfbf8f381b11307a.jpg" },
+        { title: 'Contact', imageUrl: "https://64.media.tumblr.com/f0b5f568115a45eefbed5e14836b9bc4/a648309f1e38239a-04/s2048x3072/c2fec5507a1d94ce78532a353533a00f4cb806cf.jpg" },
         // Add more movie data here...
     ];
 
